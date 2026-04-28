@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GymBro - Politica de Privacidad</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif; background: #0A0A0A; color: #E0E0E0; line-height: 1.7; padding: 20px; max-width: 800px; margin: 0 auto; }
+        h1 { color: #CDFF00; font-size: 28px; margin: 40px 0 10px; }
+        h2 { color: #CDFF00; font-size: 20px; margin: 30px 0 10px; }
+        h3 { color: #fff; font-size: 16px; margin: 20px 0 8px; }
+        p, li { color: #B0B0B0; font-size: 15px; margin-bottom: 12px; }
+        ul { padding-left: 20px; }
+        a { color: #CDFF00; }
+        .badge { display: inline-block; background: #CDFF001A; color: #CDFF00; padding: 4px 12px; border-radius: 8px; font-size: 13px; font-weight: 600; margin-bottom: 20px; }
+        .section { background: #1A1A1A; border-radius: 16px; padding: 24px; margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <h1>Politica de Privacidad</h1>
+    <div class="badge">Ultima actualizacion: 4 de abril de 2026</div>
+
+    <div class="section">
+        <p>GymBro ("nosotros", "nuestro", "la app") se compromete a proteger tu privacidad. Esta politica describe como recopilamos, usamos y protegemos tu informacion personal.</p>
+    </div>
+
+    <h2>1. Informacion que Recopilamos</h2>
+    <div class="section">
+        <h3>Datos que proporcionas directamente:</h3>
+        <ul>
+            <li>Perfil de usuario (nombre, edad, peso, altura, objetivos)</li>
+            <li>Registros de entrenamiento (ejercicios, series, repeticiones, peso)</li>
+            <li>Datos de nutricion (comidas, calorias, macros)</li>
+            <li>Fotos de progreso (almacenadas localmente en tu dispositivo)</li>
+            <li>Medidas corporales</li>
+        </ul>
+
+        <h3>Datos recopilados automaticamente:</h3>
+        <ul>
+            <li>Datos de Apple HealthKit (con tu permiso explicito): peso, grasa corporal, sueno, frecuencia cardiaca, HRV, pasos</li>
+            <li>Datos de actividad del dispositivo (con tu permiso)</li>
+        </ul>
+
+        <h3>Datos que NO recopilamos:</h3>
+        <ul>
+            <li>No vendemos tus datos personales a terceros</li>
+            <li>No recopilamos datos de ubicacion</li>
+            <li>No usamos cookies de rastreo</li>
+            <li>No compartimos datos de HealthKit con terceros</li>
+        </ul>
+    </div>
+
+    <h2>2. Como Usamos tus Datos</h2>
+    <div class="section">
+        <ul>
+            <li>Proporcionar funcionalidades de la app (seguimiento de entrenamientos, nutricion, progreso)</li>
+            <li>Personalizar recomendaciones de entrenamiento y nutricion</li>
+            <li>Calcular metricas de recuperacion y rendimiento</li>
+            <li>Sincronizar datos entre tus dispositivos via iCloud</li>
+            <li>Generar respuestas de AI coach basadas en tu contexto de fitness</li>
+        </ul>
+    </div>
+
+    <h2>3. Almacenamiento de Datos</h2>
+    <div class="section">
+        <p>Todos tus datos se almacenan:</p>
+        <ul>
+            <li><strong>Localmente</strong> en tu dispositivo usando SwiftData</li>
+            <li><strong>En iCloud</strong> (si esta habilitado) usando CloudKit para sincronizacion entre dispositivos</li>
+            <li>Las fotos de progreso se almacenan exclusivamente en tu dispositivo</li>
+            <li>Los datos de HealthKit permanecen en el ecosistema de Apple Health</li>
+        </ul>
+        <p>No almacenamos tus datos en servidores propios. Tu informacion vive en tu dispositivo y en tu cuenta de iCloud.</p>
+    </div>
+
+    <h2>4. Servicios de Terceros</h2>
+    <div class="section">
+        <ul>
+            <li><strong>Apple iCloud/CloudKit:</strong> Sincronizacion de datos entre dispositivos</li>
+            <li><strong>Apple HealthKit:</strong> Lectura/escritura de datos de salud (con tu permiso)</li>
+            <li><strong>Google Gemini AI:</strong> Procesamiento de consultas al AI Coach (las consultas se envian a traves de nuestro proxy seguro, no se almacenan)</li>
+            <li><strong>Apple StoreKit:</strong> Procesamiento de suscripciones</li>
+        </ul>
+    </div>
+
+    <h2>5. Datos de HealthKit</h2>
+    <div class="section">
+        <p>Cumplimos estrictamente con las directrices de Apple para HealthKit:</p>
+        <ul>
+            <li>Solo accedemos a datos de HealthKit con tu consentimiento explicito</li>
+            <li>Los datos de HealthKit se usan exclusivamente para funcionalidades de la app</li>
+            <li>Nunca compartimos datos de HealthKit con terceros</li>
+            <li>Nunca usamos datos de HealthKit para publicidad</li>
+            <li>No almacenamos datos de HealthKit fuera de tu dispositivo</li>
+        </ul>
+    </div>
+
+    <h2>6. Seguridad</h2>
+    <div class="section">
+        <ul>
+            <li>Datos sensibles almacenados en iOS Keychain</li>
+            <li>Comunicaciones API encriptadas via HTTPS</li>
+            <li>API keys nunca almacenadas en el dispositivo del usuario</li>
+            <li>Sin acceso a datos sin autenticacion del dispositivo</li>
+        </ul>
+    </div>
+
+    <h2>7. Tus Derechos</h2>
+    <div class="section">
+        <ul>
+            <li><strong>Acceso:</strong> Puedes exportar todos tus datos desde la app (CSV/PDF)</li>
+            <li><strong>Eliminacion:</strong> Puedes eliminar tu cuenta y todos los datos desde Perfil > Eliminar datos</li>
+            <li><strong>Portabilidad:</strong> Exporta tus datos en formatos estandar</li>
+            <li><strong>Revocacion:</strong> Puedes revocar permisos de HealthKit en cualquier momento desde Ajustes de iOS</li>
+        </ul>
+    </div>
+
+    <h2>8. Menores de Edad</h2>
+    <div class="section">
+        <p>GymBro no esta disenada para menores de 16 anos. No recopilamos intencionalmente datos de menores.</p>
+    </div>
+
+    <h2>9. Cambios a esta Politica</h2>
+    <div class="section">
+        <p>Nos reservamos el derecho de actualizar esta politica. Te notificaremos de cambios significativos a traves de la app.</p>
+    </div>
+
+    <h2>10. Contacto</h2>
+    <div class="section">
+        <p>Para preguntas sobre privacidad, contactanos en: <a href="mailto:barreralematias@gmail.com">barreralematias@gmail.com</a></p>
+    </div>
+</body>
+</html>
